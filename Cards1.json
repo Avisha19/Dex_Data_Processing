@@ -1,0 +1,10 @@
+{"cards1":
+[
+    {"img": "/images/financial_scanning.jpg", "title": "Financial Scanning", "description": "Converting finance documents into digital format improves security, efficiency, compliance , saves space, time and money.", "goTo": "FinancialServicies"},
+    {"img": "/images/legal_documents.jpg", "title": "Legal Documents", "description": "Converting all legal records in digital format allows you to search view, manage and distribute important documents with ease.", "goTo": "LegalDocuments"},
+    {"img": "/images/human_resources.jpg", "title": "Human Resources", "description": "HR department tends to be paper-intensive and it is tedious to manage it in physical format- that is where DEXDATA comes in.", "goTo": "HRServices"},
+    {"img": "/images/media_&_publishing.jpg", "title": "Media & Publishing", "description":"We are experts at creating digital-archives of magazines, newspapers photos, film, and more for publishing companies.", "goTo": "MediaAndPublishing"},
+    {"img": "/images/medical_documents.jpg", "title": "Medical Documents", "description": "Ease of retrieving information from the scanned medical, patient records if they are in digital format.", "goTo": "MedicalDocuments"},
+    {"img": "/images/booklet_scanning_&_binding.jpg", "title": "Booklet Scanning & Binding", "description": "Digitizing a variety of Newsletters, Recipe Booklets, Instruction Manuals, Reference Guides, Portfolios Coil/Spiral Binding and Saddle Stitched.", "goTo": "BookBinding"}
+]
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.carousel {
+  display: flex;
+  transition: transform 0.3s ease-out;
+}
+.carousel-item {
+  flex: 0 0 100%;
+}
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-out;
+}
+.carousel-arrow:hover {
+  background-color: gray;
+}
+.carousel-arrow.left-0 {
+  left: 0;
+}
+.carousel-arrow.right-0 {
+  right: 0;
+}
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gray;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-out;
+}
+.carousel-dot:hover {
+  background-color: black;
+}
+.carousel-dot.active {
+  background-color: black;
+}
